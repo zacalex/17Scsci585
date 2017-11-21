@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>BOA</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291149,34.025099</coordinates></Point>
+</Placemark>
+<Placemark><name>PDH</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291159,34.018966</coordinates></Point>
+</Placemark>
+<Placemark><name>GTL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282502,34.018608</coordinates></Point>
+</Placemark>
+<Placemark><name>FelixChevrolet</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.280250,34.021869</coordinates></Point>
+</Placemark>
+<Placemark><name>SGM</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289162,34.021240</coordinates></Point>
+</Placemark>
+<Placemark><name>Student Union</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285787,34.020238</coordinates></Point>
+</Placemark>
+<Placemark><name>LVL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282788,34.021782</coordinates></Point>
+</Placemark>
+<Placemark><name>Lyon Center</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288386,34.024373</coordinates></Point>
+</Placemark>
+<Placemark><name>PM Fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284523,34.020505</coordinates></Point>
+</Placemark>
+
+<Placemark><LineString><coordinates>-118.282788,34.021782,2357
+-118.284523,34.020505,2357
+</coordinates></LineString> </Placemark>
+<Placemark><LineString><coordinates>-118.285787,34.020238,2357
+-118.284523,34.020505,2357
+</coordinates></LineString> </Placemark>
+<Placemark><LineString><coordinates>-118.282502,34.01860,2357
+-118.284523,34.020505,2357
+</coordinates></LineString> </Placemark>
+
+<Placemark>
+          <name>res</name>
+          <styleUrl>#msn_ylw-pushpin</styleUrl>
+          <Polygon>
+              <tessellate>1</tessellate>
+              <outerBoundaryIs>
+                  <LinearRing>
+                      <coordinates>  
+-118.291149,34.025099,17  
+-118.288386,34.024373,17    
+-118.280250,34.021869,17    
+-118.282502,34.018608,17    
+-118.291159,34.018966,17   
+  
+-118.291149,34.025099,17
+                      </coordinates>
+                  </LinearRing>
+              </outerBoundaryIs>
+          </Polygon>
+      </Placemark>   
+    
+
+      
+
+</Document></kml>

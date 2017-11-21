@@ -1,0 +1,1 @@
+﻿SELECT ST_AsText(ST_ConvexHull(ST_Collect(step5.point))) FROM step5;
